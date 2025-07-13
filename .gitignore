@@ -1,0 +1,97 @@
+# AWS EC2 Project .gitignore
+
+# AWS Credentials and Keys
+*.pem
+*.key
+*.ppk
+aws-credentials.txt
+credentials
+config
+
+# AWS Configuration Files
+.aws/
+aws-config/
+
+# Environment Variables
+.env
+.env.local
+.env.production
+.env.staging
+
+# IP Addresses and Server Information
+server-info.txt
+ip-addresses.txt
+server-config.txt
+
+# Logs
+*.log
+logs/
+nginx-logs/
+access.log
+error.log
+
+# System Files
+.DS_Store
+Thumbs.db
+*.tmp
+*.temp
+
+# IDE Files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Backup Files
+*.bak
+*.backup
+backup/
+
+# SSL Certificates
+*.crt
+*.cert
+*.ca-bundle
+ssl-certs/
+
+# Database Files (if any)
+*.db
+*.sqlite
+*.sql
+
+# Compressed Files
+*.zip
+*.tar.gz
+*.rar
+
+# Node.js (if using any JS tools)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Python (if using any Python scripts)
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Terraform (if using Infrastructure as Code)
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+
+# Docker (if using containers)
+Dockerfile.prod
+docker-compose.override.yml
+
+# Personal Notes
+notes.txt
+todo.txt
+personal-notes/
+
+# Screenshots with sensitive info
+screenshots/with-ip/
+screenshots/private/

@@ -1,2 +1,23 @@
-# Auto detect text files and perform LF normalization
+# Set default behavior to automatically normalize line endings.
 * text=auto
+
+# Ensure shell scripts have LF endings on all OS
+*.sh text eol=lf
+
+# Markdown files
+*.md text
+*.txt text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.svg text
+
+# Web assets
+*.html text
+*.css text
+*.js text
+*.json text
